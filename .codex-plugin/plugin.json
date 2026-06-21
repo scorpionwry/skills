@@ -1,0 +1,37 @@
+{
+  "name": "dev-skills",
+  "version": "0.1.0",
+  "description": "轻量软件开发技能包，用小而可组合的技能支持需求澄清、spec、plan、TDD、debugging 和 review。",
+  "author": {
+    "name": "dev-skills maintainers"
+  },
+  "homepage": "https://github.com/scorpionwry/skills",
+  "repository": "https://github.com/scorpionwry/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "software-development",
+    "planning",
+    "tdd",
+    "debugging",
+    "review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "dev-skills",
+    "shortDescription": "面向 coding agents 的轻量 planning、TDD、debugging 和 review 技能包",
+    "longDescription": "dev-skills 通过小而可组合的 skills，引导 agent 完成需求澄清、轻量 spec、implementation plan、behavior-first TDD、系统化 debugging、执行和 review，并使用 .dev/skills 保存关键产物。",
+    "developerName": "dev-skills maintainers",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "帮我规划并实现一个新功能。",
+      "这个 bug 需要系统化排查。"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

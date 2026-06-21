@@ -1,0 +1,29 @@
+{
+  "name": "dev-skills",
+  "description": "轻量软件开发技能包：clarification、spec、plan、TDD、debugging、execution 和 review。",
+  "version": "0.1.0",
+  "author": {
+    "name": "dev-skills maintainers"
+  },
+  "homepage": "https://github.com/scorpionwry/skills",
+  "repository": "https://github.com/scorpionwry/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "software-development",
+    "planning",
+    "tdd",
+    "debugging",
+    "review"
+  ],
+  "skills": [
+    "./skills/dev-router",
+    "./skills/clarify-requirements",
+    "./skills/write-light-spec",
+    "./skills/write-implementation-plan",
+    "./skills/execute-plan",
+    "./skills/tdd-loop",
+    "./skills/debug-systematically",
+    "./skills/review-and-finish"
+  ]
+}
